@@ -4,7 +4,7 @@ import Sun from '../../images/sun.jpeg'
 import {BiWind} from 'react-icons/bi'
 import {GiHeavyRain} from 'react-icons/gi'
 import {WiHumidity} from 'react-icons/wi'
-function Degrees({data}) {
+function Degrees({data,location}) {
   return (
     <div className= "Degrees">
         <div className='number'>
@@ -12,7 +12,7 @@ function Degrees({data}) {
         </div>
         <div className='number number2'>
             <div style={{fontSize:'70px'}}>{data.feelslike_c}</div>
-            <div>61&deg;/67&deg;</div>
+            <div>{location}</div>
         </div>
         <div className='number number3'>
             <div className='icons'>

@@ -28,7 +28,7 @@ function App() {
 
 
 
-  const [data,setData] = useState([])
+  const [data,setData] = useState()
 
 
 
@@ -36,7 +36,7 @@ function App() {
     data?<div className="App">
     <h1 style={{color:'black', fontFamily:'fantasy', fontWeight:'normal', borderBottom:'2px black solid'}}>WEATHER APP</h1>
     < Location data={data.current} handleLocationChange = {handleLocationChange}/>
-    < Degrees data={data.current}/>
+    < Degrees data={data.current} location={data.location.name}/>
     < Days data = {data.forecast.forecastday}/>
   </div>:<div></div>
   );

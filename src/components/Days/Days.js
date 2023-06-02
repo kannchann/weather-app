@@ -11,8 +11,8 @@ function Days({data}) {
         <div>
             <img src={day.day.condition.icon}/>
         </div>
-        <div>70&deg;/60&deg;</div>
-        <div>TOM</div>
+        <div>{day.day.mintemp_c}&deg;/{day.day.maxtemp_c}&deg;</div>
+        <div>{day.date}</div>
     </div>)
     })
 }

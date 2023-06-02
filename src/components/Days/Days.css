@@ -1,6 +1,7 @@
 .Days{
     width: 900px;
     height: 100px;
+    margin-top: 15px;
     
     display: flex;
     flex-direction: row;
