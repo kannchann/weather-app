@@ -1,0 +1,25 @@
+.header
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: CENTER;
+    align-items: CENTER;
+    font-size: 30px;
+    width:900px;
+    height: 100px;
+    font-family: sans-serif;
+
+}
+
+
+.location
+{
+    border: none;
+    font-size: 30px;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;    
+    width:auto;
+    outline: none;
+}

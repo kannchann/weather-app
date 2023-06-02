@@ -1,0 +1,14 @@
+.Days{
+    width: 900px;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
